@@ -6,7 +6,7 @@ speed(0)
 def star(sidelength = 50):
     for i in range(5):
         forward(sidelength)
-        #144 stackOverflow
+        #144 stackOverflow --> perfect angle for a 5-pointed star
         right(144)
 
 def starSpiral():
